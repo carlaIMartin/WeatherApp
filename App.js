@@ -23,6 +23,14 @@ const App = () => {
 
   console.log(loading, error, weather)
 
+  if(weather && weather.list) {
+    return (
+      <NavigationContainer>
+        <Tabs weather={weather} />
+      </NavigationContainer>
+    )
+  }
+
 
   if (loading) {
     return (
@@ -34,11 +42,7 @@ const App = () => {
 
   
 
-  return (
-    <NavigationContainer>
-      <Tabs />
-    </NavigationContainer>
-  )
+
 }
 
 const styles = StyleSheet.create({
