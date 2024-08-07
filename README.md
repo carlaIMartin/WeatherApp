@@ -1,10 +1,11 @@
 # Simple Weather Appllication 
 ## React Native project
 ### The first project created  in order to familiarize with React  Native
+Weather application that indicates weather depending on the location of the device 
 
 ## Prerequisites
---- Expo GO on a mobile device or emulator /n
---- JavaScript editor
+* Expo GO on a mobile device or emulator /n
+* JavaScript editor
 
 ## Running the application:
 After downloading it, run the "npm run start" command in the terminal whilst being in the project folder, then press "a" to start emulating on android 
