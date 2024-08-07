@@ -3,7 +3,7 @@
 ### The first project created  in order to familiarize with React  Native
 
 ## Prerequisites
---- Expo GO on a mobile device or emulator
+--- Expo GO on a mobile device or emulator /n
 --- JavaScript editor
 
 ## Running the application:
